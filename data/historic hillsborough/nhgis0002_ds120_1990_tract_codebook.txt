@@ -1,0 +1,674 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds120_1990_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1990
+Geographic level: Census Tract (by State--County)
+Dataset:          1990 Census: STF 1 - 100% Data
+   NHGIS code:    1990_STF1
+   NHGIS ID:      ds120
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Persons
+   Universe:    Persons
+   Source code: NP1
+   NHGIS code:  ET1
+ 
+2. Families
+   Universe:    Families
+   Source code: NP2
+   NHGIS code:  EUD
+ 
+3. Households
+   Universe:    Households
+   Source code: NP3
+   NHGIS code:  EUO
+ 
+4. Urban and Rural
+   Universe:    Persons
+   Source code: NP4
+   NHGIS code:  EUW
+ 
+5. Sex
+   Universe:    Persons
+   Source code: NP5
+   NHGIS code:  EUX
+ 
+6. Race
+   Universe:    Persons
+   Source code: NP6
+   NHGIS code:  EUY
+ 
+7. Persons of Hispanic Origin
+   Universe:    Persons of Hispanic Origin
+   Source code: NP8
+   NHGIS code:  EU0
+ 
+8. Hispanic Origin
+   Universe:    Persons
+   Source code: NP9
+   NHGIS code:  EU1
+ 
+9. Hispanic Origin by Race
+   Universe:    Persons
+   Source code: NP10
+   NHGIS code:  ET2
+ 
+10. Age
+    Universe:    Persons
+    Source code: NP11
+    NHGIS code:  ET3
+ 
+11. Sex by Age
+    Universe:    Persons of Hispanic Origin
+    Source code: NP13
+    NHGIS code:  ET5
+ 
+12. Household Type and Relationship
+    Universe:    Persons
+    Source code: NP15
+    NHGIS code:  ET7
+ 
+13. Household Size and Household Type
+    Universe:    Households
+    Source code: NP16
+    NHGIS code:  ET8
+ 
+14. Household Type and Relationship
+    Universe:    Persons 65 Years and Over
+    Source code: NP23
+    NHGIS code:  EUH
+ 
+15. Household Type
+    Universe:    Households
+    Source code: NP26
+    NHGIS code:  EUK
+ 
+16. Housing Units
+    Universe:    Housing units
+    Source code: NH1
+    NHGIS code:  ESA
+ 
+17. Occupancy Status
+    Universe:    Housing units
+    Source code: NH2
+    NHGIS code:  ESN
+ 
+18. Tenure
+    Universe:    Occupied housing units
+    Source code: NH3
+    NHGIS code:  ES1
+ 
+19. Urban and Rural
+    Universe:    Housing units
+    Source code: NH4
+    NHGIS code:  ETF
+ 
+20. Vacancy Status
+    Universe:    Vacant housing units
+    Source code: NH5
+    NHGIS code:  ETQ
+ 
+21. Race of Householder
+    Universe:    Occupied housing units
+    Source code: NH8
+    NHGIS code:  ETZ
+ 
+22. Rooms
+    Universe:    Housing units
+    Source code: NH13
+    NHGIS code:  ESE
+ 
+23. Aggregate Rooms
+    Universe:    Housing units
+    Source code: NH14
+    NHGIS code:  ESF
+ 
+24. Persons per Room
+    Universe:    Occupied housing units
+    Source code: NH21
+    NHGIS code:  ESP
+ 
+25. Median Value
+    Universe:    Specified owner-occupied housing units
+    Source code: NH23B
+    NHGIS code:  EST
+ 
+26. Aggregate Value
+    Universe:    Specified owner-occupied housing units
+    Source code: NH24
+    NHGIS code:  ESV
+ 
+27. Aggregate Value by Race of Householder
+    Universe:    Specified owner-occupied housing units
+    Source code: NH26
+    NHGIS code:  ESX
+ 
+28. Vacancy Status
+    Universe:    Vacant housing units
+    Source code: NH30
+    NHGIS code:  ES2
+ 
+29. Contract Rent
+    Universe:    Specified renter-occupied housing units
+    Source code: NH32
+    NHGIS code:  ES4
+ 
+30. Median Contract Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH32B
+    NHGIS code:  ES6
+ 
+31. Aggregate Contract Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH33
+    NHGIS code:  ES8
+ 
+32. Units in Structure
+    Universe:    Housing units
+    Source code: NH41
+    NHGIS code:  ETH
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State/US Abbreviation
+        ANRCA:       Alaska Native Regional Corporation Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Reservation [excluding trust lands] Code
+        TRUSTA:      American Indian Reservation [trust lands only] Code
+        AIANCC:      American Indian/Alaska Native Area Class Code
+        RES_TRSTA:   Reservation/Trust Lands Code
+        BLOCKA:      Block Code
+        BLCK_GRPA:   Block Group Code
+        TRACTA:      Census Tract Code
+        CD101A:      Congressional District (101st) Code
+        C_CITYA:     Consolidated City Code
+        CMSA:        Consolidated Metropolitan Statistical Area
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        COUSUBCC:    County Subdivision Class Code
+        DIVISIONA:   Division Code
+        MSA_CMSAA:   Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Code
+        PLACEA:      Place Code
+        PLACECC:     Place Class Code
+        PLACEDC:     Place Description Code
+        PMSAA:       Primary Metropolitan Statistical Area Code
+        REGIONA:     Region Code
+        STATE:       State Name
+        STATEA:      State Code
+        URBRURALA:   Urban/Rural Code
+        URB_AREAA:   Urban Area Code
+        CD103A:      Congressional District (103rd) Code
+        AREALAND:    Area (land)
+        AREAWAT:     Area (Water)
+        ANPSADPI:    Area Name/PSAD Term/Part Indicator
+        FUNCSTAT:    Functional Status Code
+        INTPTLAT:    Internal Point (latitude)
+        INTPTLNG:    Internal Point (longitude)
+        PSADC:       Political/Statistical Area Description Code
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Persons
+    Universe:    Persons
+    Source code: NP1
+    NHGIS code:  ET1
+        ET1001:      Total
+ 
+    Table 2:     Families
+    Universe:    Families
+    Source code: NP2
+    NHGIS code:  EUD
+        EUD001:      Total
+ 
+    Table 3:     Households
+    Universe:    Households
+    Source code: NP3
+    NHGIS code:  EUO
+        EUO001:      Total
+ 
+    Table 4:     Urban and Rural
+    Universe:    Persons
+    Source code: NP4
+    NHGIS code:  EUW
+        EUW001:      Urban: Inside urbanized area
+        EUW002:      Urban: Outside urbanized area
+        EUW003:      Rural
+        EUW004:      Not defined for this file
+ 
+    Table 5:     Sex
+    Universe:    Persons
+    Source code: NP5
+    NHGIS code:  EUX
+        EUX001:      Male
+        EUX002:      Female
+ 
+    Table 6:     Race
+    Universe:    Persons
+    Source code: NP6
+    NHGIS code:  EUY
+        EUY001:      White
+        EUY002:      Black
+        EUY003:      American Indian, Eskimo, or Aleut
+        EUY004:      Asian or Pacific Islander
+        EUY005:      Other race
+ 
+    Table 7:     Persons of Hispanic Origin
+    Universe:    Persons of Hispanic Origin
+    Source code: NP8
+    NHGIS code:  EU0
+        EU0001:      Total
+ 
+    Table 8:     Hispanic Origin
+    Universe:    Persons
+    Source code: NP9
+    NHGIS code:  EU1
+        EU1001:      Not of Hispanic origin
+        EU1002:      Hispanic origin: Mexican
+        EU1003:      Hispanic origin: Puerto Rican
+        EU1004:      Hispanic origin: Cuban
+        EU1005:      Hispanic origin: Other Hispanic
+ 
+    Table 9:     Hispanic Origin by Race
+    Universe:    Persons
+    Source code: NP10
+    NHGIS code:  ET2
+        ET2001:      Not of Hispanic origin >> White
+        ET2002:      Not of Hispanic origin >> Black
+        ET2003:      Not of Hispanic origin >> American Indian, Eskimo, or Aleut
+        ET2004:      Not of Hispanic origin >> Asian or Pacific Islander
+        ET2005:      Not of Hispanic origin >> Other race
+        ET2006:      Hispanic origin >> White
+        ET2007:      Hispanic origin >> Black
+        ET2008:      Hispanic origin >> American Indian, Eskimo, or Aleut
+        ET2009:      Hispanic origin >> Asian or Pacific Islander
+        ET2010:      Hispanic origin >> Other race
+ 
+    Table 10:    Age
+    Universe:    Persons
+    Source code: NP11
+    NHGIS code:  ET3
+        ET3001:      Under 1 year
+        ET3002:      1 and 2 years
+        ET3003:      3 and 4 years
+        ET3004:      5 years
+        ET3005:      6 years
+        ET3006:      7 to 9 years
+        ET3007:      10 and 11 years
+        ET3008:      12 and 13 years
+        ET3009:      14 years
+        ET3010:      15 years
+        ET3011:      16 years
+        ET3012:      17 years
+        ET3013:      18 years
+        ET3014:      19 years
+        ET3015:      20 years
+        ET3016:      21 years
+        ET3017:      22 to 24 years
+        ET3018:      25 to 29 years
+        ET3019:      30 to 34 years
+        ET3020:      35 to 39 years
+        ET3021:      40 to 44 years
+        ET3022:      45 to 49 years
+        ET3023:      50 to 54 years
+        ET3024:      55 to 59 years
+        ET3025:      60 and 61 years
+        ET3026:      62 to 64 years
+        ET3027:      65 to 69 years
+        ET3028:      70 to 74 years
+        ET3029:      75 to 79 years
+        ET3030:      80 to 84 years
+        ET3031:      85 years and over
+ 
+    Table 11:    Sex by Age
+    Universe:    Persons of Hispanic Origin
+    Source code: NP13
+    NHGIS code:  ET5
+        ET5001:      Male >> Under 1 year
+        ET5002:      Male >> 1 and 2 years
+        ET5003:      Male >> 3 and 4 years
+        ET5004:      Male >> 5 years
+        ET5005:      Male >> 6 years
+        ET5006:      Male >> 7 to 9 years
+        ET5007:      Male >> 10 and 11 years
+        ET5008:      Male >> 12 and 13 years
+        ET5009:      Male >> 14 years
+        ET5010:      Male >> 15 years
+        ET5011:      Male >> 16 years
+        ET5012:      Male >> 17 years
+        ET5013:      Male >> 18 years
+        ET5014:      Male >> 19 years
+        ET5015:      Male >> 20 years
+        ET5016:      Male >> 21 years
+        ET5017:      Male >> 22 to 24 years
+        ET5018:      Male >> 25 to 29 years
+        ET5019:      Male >> 30 to 34 years
+        ET5020:      Male >> 35 to 39 years
+        ET5021:      Male >> 40 to 44 years
+        ET5022:      Male >> 45 to 49 years
+        ET5023:      Male >> 50 to 54 years
+        ET5024:      Male >> 55 to 59 years
+        ET5025:      Male >> 60 and 61 years
+        ET5026:      Male >> 62 to 64 years
+        ET5027:      Male >> 65 to 69 years
+        ET5028:      Male >> 70 to 74 years
+        ET5029:      Male >> 75 to 79 years
+        ET5030:      Male >> 80 to 84 years
+        ET5031:      Male >> 85 years and over
+        ET5032:      Female >> Under 1 year
+        ET5033:      Female >> 1 and 2 years
+        ET5034:      Female >> 3 and 4 years
+        ET5035:      Female >> 5 years
+        ET5036:      Female >> 6 years
+        ET5037:      Female >> 7 to 9 years
+        ET5038:      Female >> 10 and 11 years
+        ET5039:      Female >> 12 and 13 years
+        ET5040:      Female >> 14 years
+        ET5041:      Female >> 15 years
+        ET5042:      Female >> 16 years
+        ET5043:      Female >> 17 years
+        ET5044:      Female >> 18 years
+        ET5045:      Female >> 19 years
+        ET5046:      Female >> 20 years
+        ET5047:      Female >> 21 years
+        ET5048:      Female >> 22 to 24 years
+        ET5049:      Female >> 25 to 29 years
+        ET5050:      Female >> 30 to 34 years
+        ET5051:      Female >> 35 to 39 years
+        ET5052:      Female >> 40 to 44 years
+        ET5053:      Female >> 45 to 49 years
+        ET5054:      Female >> 50 to 54 years
+        ET5055:      Female >> 55 to 59 years
+        ET5056:      Female >> 60 and 61 years
+        ET5057:      Female >> 62 to 64 years
+        ET5058:      Female >> 65 to 69 years
+        ET5059:      Female >> 70 to 74 years
+        ET5060:      Female >> 75 to 79 years
+        ET5061:      Female >> 80 to 84 years
+        ET5062:      Female >> 85 years and over
+ 
+    Table 12:    Household Type and Relationship
+    Universe:    Persons
+    Source code: NP15
+    NHGIS code:  ET7
+        ET7001:      In family households: Householder
+        ET7002:      In family households: Spouse
+        ET7003:      In family households: Child: Natural-born or adopted
+        ET7004:      In family households: Child: Step
+        ET7005:      In family households: Grandchild
+        ET7006:      In family households: Other relatives
+        ET7007:      In family households: Nonrelatives
+        ET7008:      In nonfamily households: Householder living alone
+        ET7009:      In nonfamily households: Householder not living alone
+        ET7010:      In nonfamily households: Nonrelatives
+        ET7011:      In group quarters: Institutionalized persons
+        ET7012:      In group quarters: Other persons in group quarters
+        ET7013:      Count adjustment
+ 
+    Table 13:    Household Size and Household Type
+    Universe:    Households
+    Source code: NP16
+    NHGIS code:  ET8
+        ET8001:      1 person: Male householder
+        ET8002:      1 person: Female householder
+        ET8003:      2 or more persons: Family households: Married-couple family: With related children
+        ET8004:      2 or more persons: Family households: Married-couple family: No related children
+        ET8005:      2 or more persons: Family households: Other family: Male householder, no wife present: With related children
+        ET8006:      2 or more persons: Family households: Other family: Male householder, no wife present: No related children
+        ET8007:      2 or more persons: Family households: Other family: Female householder, no husband present: With related children
+        ET8008:      2 or more persons: Family households: Other family: Female householder, no husband present: No related children
+        ET8009:      2 or more persons: Nonfamily households: Male householder
+        ET8010:      2 or more persons: Nonfamily households: Female householder
+ 
+    Table 14:    Household Type and Relationship
+    Universe:    Persons 65 Years and Over
+    Source code: NP23
+    NHGIS code:  EUH
+        EUH001:      In family households: Householder
+        EUH002:      In family households: Spouse
+        EUH003:      In family households: Other relatives
+        EUH004:      In family households: Nonrelatives
+        EUH005:      In nonfamily households: Male householder: Living alone
+        EUH006:      In nonfamily households: Male householder: Not living alone
+        EUH007:      In nonfamily households: Female householder: Living alone
+        EUH008:      In nonfamily households: Female householder: Not living alone
+        EUH009:      In nonfamily households: Nonrelatives
+        EUH010:      In group quarters: Institutionalized persons
+        EUH011:      In group quarters: Other persons in group quarters
+        EUH012:      Count adjustment
+ 
+    Table 15:    Household Type
+    Universe:    Households
+    Source code: NP26
+    NHGIS code:  EUK
+        EUK001:      Households with 1 or more nonrelatives
+        EUK002:      Households with no nonrelatives
+ 
+    Table 16:    Housing Units
+    Universe:    Housing units
+    Source code: NH1
+    NHGIS code:  ESA
+        ESA001:      Total
+ 
+    Table 17:    Occupancy Status
+    Universe:    Housing units
+    Source code: NH2
+    NHGIS code:  ESN
+        ESN001:      Occupied
+        ESN002:      Vacant
+ 
+    Table 18:    Tenure
+    Universe:    Occupied housing units
+    Source code: NH3
+    NHGIS code:  ES1
+        ES1001:      Owner occupied
+        ES1002:      Renter occupied
+ 
+    Table 19:    Urban and Rural
+    Universe:    Housing units
+    Source code: NH4
+    NHGIS code:  ETF
+        ETF001:      Urban: Inside urbanized area
+        ETF002:      Urban: Outside urbanized area
+        ETF003:      Rural
+        ETF004:      Not defined for this file
+ 
+    Table 20:    Vacancy Status
+    Universe:    Vacant housing units
+    Source code: NH5
+    NHGIS code:  ETQ
+        ETQ001:      For rent
+        ETQ002:      For sale only
+        ETQ003:      Rented or sold, not occupied
+        ETQ004:      For seasonal, recreational, or occasional use
+        ETQ005:      For migrant workers
+        ETQ006:      Other vacant
+ 
+    Table 21:    Race of Householder
+    Universe:    Occupied housing units
+    Source code: NH8
+    NHGIS code:  ETZ
+        ETZ001:      White
+        ETZ002:      Black
+        ETZ003:      American Indian, Eskimo, or Aleut
+        ETZ004:      Asian or Pacific Islander
+        ETZ005:      Other race
+ 
+    Table 22:    Rooms
+    Universe:    Housing units
+    Source code: NH13
+    NHGIS code:  ESE
+        ESE001:      1 room
+        ESE002:      2 rooms
+        ESE003:      3 rooms
+        ESE004:      4 rooms
+        ESE005:      5 rooms
+        ESE006:      6 rooms
+        ESE007:      7 rooms
+        ESE008:      8 rooms
+        ESE009:      9 or more rooms
+ 
+    Table 23:    Aggregate Rooms
+    Universe:    Housing units
+    Source code: NH14
+    NHGIS code:  ESF
+        ESF001:      Aggregate rooms
+ 
+    Table 24:    Persons per Room
+    Universe:    Occupied housing units
+    Source code: NH21
+    NHGIS code:  ESP
+        ESP001:      0.50 or less
+        ESP002:      0.51 to 1.00
+        ESP003:      1.01 to 1.50
+        ESP004:      1.51 to 2.00
+        ESP005:      2.01 or more
+ 
+    Table 25:    Median Value
+    Universe:    Specified owner-occupied housing units
+    Source code: NH23B
+    NHGIS code:  EST
+        EST001:      Median
+ 
+    Table 26:    Aggregate Value
+    Universe:    Specified owner-occupied housing units
+    Source code: NH24
+    NHGIS code:  ESV
+        ESV001:      Aggregate value
+ 
+    Table 27:    Aggregate Value by Race of Householder
+    Universe:    Specified owner-occupied housing units
+    Source code: NH26
+    NHGIS code:  ESX
+        ESX001:      Aggregate value >> White
+        ESX002:      Aggregate value >> Black
+        ESX003:      Aggregate value >> American Indian, Eskimo, or Aleut
+        ESX004:      Aggregate value >> Asian or Pacific Islander
+        ESX005:      Aggregate value >> Other race
+ 
+    Table 28:    Vacancy Status
+    Universe:    Vacant housing units
+    Source code: NH30
+    NHGIS code:  ES2
+        ES2001:      Specified vacant for rent
+        ES2002:      Specified vacant for sale only
+        ES2003:      All other vacants
+ 
+    Table 29:    Contract Rent
+    Universe:    Specified renter-occupied housing units
+    Source code: NH32
+    NHGIS code:  ES4
+        ES4001:      With cash rent: Less than $100
+        ES4002:      With cash rent: $100 to $149
+        ES4003:      With cash rent: $150 to $199
+        ES4004:      With cash rent: $200 to $249
+        ES4005:      With cash rent: $250 to $299
+        ES4006:      With cash rent: $300 to $349
+        ES4007:      With cash rent: $350 to $399
+        ES4008:      With cash rent: $400 to $449
+        ES4009:      With cash rent: $450 to $499
+        ES4010:      With cash rent: $500 to $549
+        ES4011:      With cash rent: $550 to $599
+        ES4012:      With cash rent: $600 to $649
+        ES4013:      With cash rent: $650 to $699
+        ES4014:      With cash rent: $700 to $749
+        ES4015:      With cash rent: $750 to $999
+        ES4016:      With cash rent: $1,000 or more
+        ES4017:      No cash rent
+ 
+    Table 30:    Median Contract Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH32B
+    NHGIS code:  ES6
+        ES6001:      Median
+ 
+    Table 31:    Aggregate Contract Rent
+    Universe:    Specified renter-occupied housing units paying cash rent
+    Source code: NH33
+    NHGIS code:  ES8
+        ES8001:      Aggregate contract rent
+ 
+    Table 32:    Units in Structure
+    Universe:    Housing units
+    Source code: NH41
+    NHGIS code:  ETH
+        ETH001:      1, detached
+        ETH002:      1, attached
+        ETH003:      2
+        ETH004:      3 or 4
+        ETH005:      5 to 9
+        ETH006:      10 to 19
+        ETH007:      20 to 49
+        ETH008:      50 or more
+        ETH009:      Mobile home or trailer
+        ETH010:      Other
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
