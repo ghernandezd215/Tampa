@@ -1,0 +1,776 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Minnesota Population Center</origin>
+				<pubdate>2006/10/05</pubdate>
+				<title>Historic US Census Tract Boundaries, 1990, 1990</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Minneapolis, Minnesota</pubplace>
+					<publish>Minnesota Population Center</publish>
+				</pubinfo>
+				<onlink>http://www.nhgis.org</onlink>
+				<lworkcit>
+				</lworkcit>
+				<ftname Sync="TRUE">US_tract_1990</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This boundary file contains historic census tract boundaries for which the U.S. Census Bureau tabulated data and was produced by the Minnesota Population Center as part of the National Historical Geographic Information System (NHGIS) project. The NHGIS is an National Science Foundation-sponsored project (Grant No. BCS0094908) to create a digital spatial-temporal database of all available historical US aggregate census materials. The available shapefiles on the NHGIS site represent version 1.0 of historical US census tract boundary files for the 1910-2000 censuses.  These electronic census tract boundary files were created by referencing publicly available, printed U.S. Census Bureau maps and considerable care was taken during their production. TIGER/Line spatial features that corresponded to boundaries on these maps were used to construct proper historic boundaries.  When a TIGER/Line features was not available, we digitized the historic boundary from a geo-referenced, scanned census map.  The boundary files have been checked against currently available historical census aggregate data.</abstract>
+			<purpose>These data are based upon work supported by the National Science Foundation under Grant No. BCS0094908 - in infrastructure grant provided for the social sciences. Its purpose is twofold. First, the NHGIS created and freely distributes a database incorporating all available aggregate census information for the United States between 1790 and 2000. The database contains information for a wide variety of statistical (blocks, block groups, census tracts, metropolitan statistical areas) and administrative units (places, minor civil divisions, counties, states).  Second, the NHGIS produced and freely distributes boundary files for small areas (census tracts and counties) in the United States. Boundary files for tracts are available for the 1910-2000 censuses, and boundary files for counties are available for the 1790-2000 censuses.</purpose>
+			<supplinf>Census tracts are small, relatively permanent geographic entities within counties and contain between 2,500 and 8,000 residents. The Census Bureau helped create and tabulate aggregate data for census tracts for ten cities in 1910. The creation of the census tract was a joint effort between federal and local entities to create a set of small geographic entities based on both population and housing characteristics. It was the localities, not the federal government, that requested the special tabulations and used the data. Additional cities were tracted by the Bureau in later decades and in 1940 the Census Bureau adopted the census tract as an official enumeration unit. The US first experienced complete coverage of census tracts in 2000.
+    Prior to the year 2000, Block Numbering Areas (BNAs) were used for areas that did not meet the tract eligibility criteria for the Census Bureau. At the time of their official recognition in 1940, BNAs and census tracts did not have similar attribute information available. In 1990, however, the Census Bureau delineated the same basic attributes for both the census tract and the BNA. For this reason, BNAs are represented as census tracts in the datasets for 1990. Prior to 1990 only census tracts are represented.
+    Crews-on-vessels refer to military or merchant ship populations, not inhabitants of houseboats or marinas. In 1990 the Census Bureau chose to represent crews-on-vessels in their electronic boundary files. This decision differed from previous and later decades where the crews-on-vessels population was added to the nearby land census tracts with which the vessels was associated. In an attempt to provide consistency over time, crews-on-vessels were removed from all of the tract boundary files. Separate statewide point shapefiles have been created for 1970, 1980 and 1990 representing crews-on-vessels within the county in which the crews-on-vessels were located in that census year.</supplinf>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As work is completed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-127.887285</westbc>
+				<eastbc Sync="TRUE">-65.345793</eastbc>
+				<northbc Sync="TRUE">51.604785</northbc>
+				<southbc Sync="TRUE">22.871934</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-2356113.745757</leftbc>
+				<rightbc Sync="TRUE">2258224.799287</rightbc>
+				<bottombc Sync="TRUE">-1337508.076719</bottombc>
+				<topbc Sync="TRUE">1565781.660886</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>historical</themekey>
+				<themekey>census of population and housing</themekey>
+				<themekey>tracts</themekey>
+				<themekey>census boundaries</themekey>
+				<themekey>census geography</themekey>
+				<themekey>census data</themekey>
+				<themekey>population</themekey>
+				<themekey>housing</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+			</temporal>
+		</keywords>
+		<accconst>All persons are granted a limited license to use and distribute this documentation and the available data, subject to the use constraints listed below.</accconst>
+		<useconst>This dataset was produced with an intended application at the city, county, metropolitan, or state/territory level. Appropriate uses include thematic mapping of census data and spatial analysis of census data.  These unaltered data may be redistributed by a third party.   If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standars for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below.  If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below.  The following source citation should be used when citing this dataset: John S. Adams, William C. Block, Mark Lindberg, Robert McMaster, Steven Ruggles, and Wendy Thomas, National Historical Geographic Information System: Pre-release Version 0.1, Minneapolis: Minnesota Population Center, University of Minnesota, 2004.  No fee may be charged for use or distribution. Publications and research reports based on the database must cite it appropriately. Users are requested to send a copy of any publications, research reports, or educational material making use of the data or documentation. Printed matter should be sent to:  NHGIS  Minnesota Population Center University of Minnesota 50 Willey Hall 225 19th Avenue South Minneapolis, MN 55455</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Petra Noble</cntper>
+					<cntorg>Minnesota Population Center</cntorg>
+				</cntperp>
+				<cntpos>Research Fellow</cntpos>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>50 Willey Hall</address>
+					<address>225 19th Ave S</address>
+					<city>Minneapolis</city>
+					<state>Minnesota</state>
+					<postal>55455</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>612-625-7375</cntvoice>
+				<cntemail>nhgis@pop.umn.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All attributes in this boundary file were checked against attributes in the available aggregate data to ensure accuracy and consistency. The boundary file may contain more or fewer tracts than the aggregate data file. Sources for the boundary files sometimes depicted tracts that were not listed in the aggregate data file.  Sometimes, the aggregate data files contains records for tracts that are not mappable (e.g. crews-on-vessels tracts are denoted as points, tracts for which paper maps not longer exist).</attraccr>
+		</attracc>
+		<logic>All spatial data have been reviewed to assure topological consistency and completeness. All polygons close and do not overlap. No voids exist within polygons. ArcGIS topology features classes were used to identify and fix topological errors (e.g., overlaps, voids, missing polygons) in the tract boundary datasets. The ArcGIS topology rules used to ensure logical consistency were 'Must not overlap'  and 'Area Boundary must be Covered by Boundary of'.</logic>
+		<complete>Version 1.0 of the tract boundary files contains census tracts.  Most tracts, although not all, have a matching record in the aggregate data files.  Tracts without a matching record contain"nodata" in its GISJOIN attribute. We made those tracts because we had a geographic representation of it.  Additionally, some records in the aggregate data files could not be mapped because they were not depicted on the paper maps or they represent crews-on-vessels tracts, which the Census Bureau denoted as points - NHGIS boundary files are only composed of polygon features.  Version 1.0 boundary files have not been generalized, and tracts containing parts of the following bodies of water do not have historically accurate coastlines: the Great Lakes, Atlantic Ocean, Pacific Ocean, and the Gulf of Mexico.  No tracts overlap, no voids exist between tracts, and any polygon belongs to one and only one tract.  Every tract has a FIPS-like code (GISJOIN) that uniquely identifies it.  The aggregate data file contains a matching code (GISJOIN) so that the files can be easily joined together.
+
+A special note if using 1990 census data with this boundary file:  The 1990 census tracts represented in this boundary file correspond to census tracts reported in the 1990 STF1 and STF3 reports.  For 1990 STF2 and STF4, the aggregate data downloaded from the NHGIS Data Finder will have duplicate tracts reported.  These tracts were split by metropolitain statistical areas.  Therefore, the following tracts (listed by their GISJOIN code) will not perfectly match 1990 STF2 or STF4 data: 
+
+09000102305
+09000304052
+09000304053
+09000304054
+09000304205
+0900030460202
+0900030462102
+0900030468101
+09000502532
+0900050310602
+09000503201
+09000901201
+09000901404
+09000901428
+09000901501
+09000901502
+09000901504
+09000901505
+09000901509
+09000901510
+09000901511
+09000901512
+09000901545
+09000901547
+09000901548
+09000901550
+09000901551
+09000901573
+09000901843
+09000901901
+09000901902
+09000901941
+09000903411
+09000903432
+23000100410
+23000100415
+23000100450
+23000100465
+23001900020
+2300190008002
+23001900090
+23001900120
+23001900215
+23001900225
+23001900265
+23001900290
+23003100061
+23003100340
+23003100360
+23003100380
+25000309321
+25000309351
+25000506122
+25000506141
+25001308130
+25001508226
+25001703162
+25001703182
+2500230505101
+25002707131
+25002707162
+25002707211
+25002707382
+25002707422
+25002707552
+33001100151
+33001100190
+33001100195
+33001300310
+33001500033
+33001500034
+33001500035
+33001500040
+33001500500
+33001500620
+33001500640
+33001500650
+44000300208
+4400050040103
+44000500402
+44000500409
+44000500411
+44000500412
+44000700029
+44000700033
+44000700163
+44000700164
+44000700165
+4400090051102
+50000700029
+50000700035
+
+This is a work in progress. A more detailed report will be provided with the final release. The beta version of the files are not generalized. Most counties that were tracted, in whole or in part, between 1910 and 2000 are available in beta format. Counties that include part of the following bodies of water: the Great Lakes, Atlantic Ocean, Gulf of Mexico, and the Pacific Ocean do not have accurate, historical coastlines.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy of the source data (U.S. Census Bureau TIGER/Line 2000 files) can be found at  http://www.census.gov/geo/www/tlmetadata/tl2kmeta.txt. To create historic county boundaries, we used existing TIGER lines whereever possible. When no TIGER line existed, we digitized new linework from scanned and rectified U.S. Census Bureau tract maps.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1942</pubdate>
+						<title>1940 census tracts [city, state]</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1952</pubdate>
+						<title>U.S. Census of population. Volume II Characteristics of population</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1960</pubdate>
+						<title>U.S. Censuses of population and housing: 1960 census tracts. Final report</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1972</pubdate>
+						<title>U.S. Census of population and housing: 1970 census tracts. Final report</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1983</pubdate>
+						<title>1980 Census of population and housing census tracts. Final report PHC</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1993</pubdate>
+						<title>1990 census of population and housing. Population and housing characteristics for census tracts and block numbering areas. Final report</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1994</pubdate>
+						<title>TIGER/Line 1992: the coast-to-coast digital map database</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Census Bureau, Data User Services Division</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>digital</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>2000</pubdate>
+						<title>Census 2000 TIGER/Line files [machine-readable data files].</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>online</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>2001</pubdate>
+						<title>2000 Summary File 1 (SF1)</title>
+						<pubinfo>
+							<pubplace>Washington D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+						<onlink>http://factfinder.census.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>digital tape media</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cities Census Committee, Inc.</origin>
+						<pubdate>1932</pubdate>
+						<title>Population of the City of New York, 1890-1930</title>
+						<pubinfo>
+							<pubplace>New York</pubplace>
+							<publish>Cities Census Committee, Inc.</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Howard Whipple Green</origin>
+						<pubdate>1927</pubdate>
+						<title>An analysis of population data by census tracts with location index, Cleveland and vicinity</title>
+						<pubinfo>
+							<pubplace>Cleveland, OH</pubplace>
+							<publish>Cleveland Health Council</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Bureau of the Census</origin>
+						<pubdate>1971</pubdate>
+						<title>U.S. Census of Housing: 1970. Block Statistics</title>
+						<pubinfo>
+							<pubplace>Washington, D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Bureau of the Census</origin>
+						<pubdate>1961</pubdate>
+						<title>U.S. Census of Housing: 1960. Volume III, City Blocks. Series HC(3)</title>
+						<pubinfo>
+							<pubplace>Washington, D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Bureau of the Census</origin>
+						<pubdate>1952</pubdate>
+						<title>U.S. Census fo Housing: 1950. Volume V, Block Statistics</title>
+						<pubinfo>
+							<pubplace>Washington, D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Bureau of the Census</origin>
+						<pubdate>1982</pubdate>
+						<title>1980 Census of Population and Housing. Block Statistics</title>
+						<pubinfo>
+							<pubplace>Washington, D.C.</pubplace>
+							<publish>U.S. Government Printing Office</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>microfiche</typesrc>
+			</srcinfo>
+			<procstep>
+				<procdesc>The U.S. Census Bureau's Census 2000 TIGER/Line files were downloaded from the Internet (http://www.census.gov/geo/www/tiger/tiger2k/tgr2000.html).</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Obtained 1992 TIGER/Line files on CD-ROM.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Using a custom Arc Macro Language (AML) script, staff converted the TIGER/Line files into Arc/Info coverages. The AML then projected the coverages into the proper UTM zone, created regions for the 1990 and 2000 census tracts and water, and extracted the 1980 census tracts from the 1992 TIGER/Line files. The end product, for editing purposes, was a polygon base map consisting of the boundary of a single county, the 1990 and 2000 tract boundaries for that county, and a coverage containing the 1980 census tracts from the 1992 TIGER/Line files.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Paper census tract maps were scanned and the resultant image geo-referenced to the TIGER/Line tract boundaries.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Starting with the 1990 TIGER-derived base map, editors worked on a county-by-county basis, backwards in time, decade by decade. A duplicate copy of the completed 1980 tract map became the edit map for the 1970 census tract map, and so on. A primary goal was to make tract borders match, where unchanged, from census year to census year. By reusing borders across different years, the NHGIS boundary files maximize the geographic correspondance between the datasets and avoid the problem of map conflation.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>With the scanned, geo-referenced tract map in the background, editors modified tract boundaries to match boundaries on the paper map. TIGER/Line features were used to verify tract borders by feature name (e.g., street, river, railroad) and was the first choice for obtaining additional line work. For example, if a tract border changed from a railroad line to a street and if the street still existed in the TIGER/Line file, the appropriate line from the TIGER/Line file was incorporated into the census tract boundaries. In cases where a new border was required that was not found in the TIGER/Line files, editors drew from a variety of ancillary data, including block maps and comparability tables from printed census documents. Usually, the editor digitized the new boundary using the scanned tract map as a guide.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>After making a new census tract, the editor calculated that tract's ID equal to the value denoted on the scanned map.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>The most common editing procedure required to make new census tracts were merge, split, swap, and calculate. For merge, an editor merged together two or more tracts to make a new tract. For split, an editor split one tract into two or more tracts. For swap, editors swapped polygons between two or more tracts but didn't create and destroy any tracts. For calculate, the editors simply calculated the tract's ID to the new value denoted on the scanned map.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>When staff finished editing all counties, a custom AML script appended all tracts and water in a given state to create a statewide coverage. Besides appending all tracts together, the AML also projected the coverages from UTM to Lambert Conformal Conic.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>To remove water from tracts along the coasts, staff edited the water regions for all coastal states and then used a custom AML to remove water from the coastal census tracts.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>NHGIS staff undertook an extensive review process after finishing tract editing. Staff examined coverages for topological errors, and they compared tract IDs with IDs found on the historical aggregate data files. The ID comparison process highlighted tracts that were missed during editing, extra tracts, and mistakes in the tract IDs.</procdesc>
+				<procsv>Arc/Info 8.3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Converted the statewide tract coverages to ArcSDE feature classes using a custom C# program.</procdesc>
+				<procsv>ArcObjects and Visual Studio .NET</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Projected feature classes from Lambert Conformal Conic to the Contiguous US Albers Equal Area Conic projection.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Appended all statewide tract feature classes together to make a seamless, nationwide feature class containing all tracts for a given decade.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>ArcGIS topology rules were used to check for topology errors in the nationwide feature classes. All errors were fixed using ArcMap 9.0.</procdesc>
+				<procsv>ArcCatalog 9.0 and ArcMap 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Census tracts were checked against aggregate data files again to ensure that no census tracts were lost during the coverage-to-feature class conversion process</procdesc>
+				<procsv>ArcCatalog 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Used ArcCatalog's metadata tools to write FGDC-compliant metadata.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>Converted tracts from feature classes to shapefiles for Internet dissemination.</procdesc>
+				<procsv>ArcCatalog 9.0</procsv>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\WorkSpace\tract.xml</srcused>
+				<date Sync="TRUE">20070111</date>
+				<time Sync="TRUE">07595600</time>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Hills1990tracts"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Hills1990tracts">
+			<enttyp>
+				<enttypl Sync="TRUE">Hills1990tracts</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE_AREA</attrlabl>
+				<attalias Sync="TRUE">Shape_Area</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GISJOIN</attrlabl>
+				<attalias Sync="TRUE">GISJOIN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">16</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NHGISST</attrlabl>
+				<attalias Sync="TRUE">NHGISST</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NHGISCTY</attrlabl>
+				<attalias Sync="TRUE">NHGISCTY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<attalias Sync="TRUE">GISJOIN2</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">GISJOIN2</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">GISJOIN_1</attrlabl><attalias Sync="TRUE">GISJOIN_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">YEAR</attrlabl><attalias Sync="TRUE">YEAR</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STUSAB</attrlabl><attalias Sync="TRUE">STUSAB</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ANRCA</attrlabl><attalias Sync="TRUE">ANRCA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AIANHHA</attrlabl><attalias Sync="TRUE">AIANHHA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RES_ONLYA</attrlabl><attalias Sync="TRUE">RES_ONLYA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TRUSTA</attrlabl><attalias Sync="TRUE">TRUSTA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AIANCC</attrlabl><attalias Sync="TRUE">AIANCC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RES_TRSTA</attrlabl><attalias Sync="TRUE">RES_TRSTA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BLOCKA</attrlabl><attalias Sync="TRUE">BLOCKA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BLCK_GRPA</attrlabl><attalias Sync="TRUE">BLCK_GRPA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TRACTA</attrlabl><attalias Sync="TRUE">TRACTA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CD101A</attrlabl><attalias Sync="TRUE">CD101A</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">C_CITYA</attrlabl><attalias Sync="TRUE">C_CITYA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CMSA</attrlabl><attalias Sync="TRUE">CMSA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUNTY</attrlabl><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUNTYA</attrlabl><attalias Sync="TRUE">COUNTYA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CTY_SUBA</attrlabl><attalias Sync="TRUE">CTY_SUBA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUSUBCC</attrlabl><attalias Sync="TRUE">COUSUBCC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DIVISIONA</attrlabl><attalias Sync="TRUE">DIVISIONA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MSA_CMSAA</attrlabl><attalias Sync="TRUE">MSA_CMSAA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLACEA</attrlabl><attalias Sync="TRUE">PLACEA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLACECC</attrlabl><attalias Sync="TRUE">PLACECC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLACEDC</attrlabl><attalias Sync="TRUE">PLACEDC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PMSAA</attrlabl><attalias Sync="TRUE">PMSAA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">REGIONA</attrlabl><attalias Sync="TRUE">REGIONA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STATEA</attrlabl><attalias Sync="TRUE">STATEA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">URBRURALA</attrlabl><attalias Sync="TRUE">URBRURALA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">URB_AREAA</attrlabl><attalias Sync="TRUE">URB_AREAA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CD103A</attrlabl><attalias Sync="TRUE">CD103A</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREALAND</attrlabl><attalias Sync="TRUE">AREALAND</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREAWAT</attrlabl><attalias Sync="TRUE">AREAWAT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ANPSADPI</attrlabl><attalias Sync="TRUE">ANPSADPI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FUNCSTAT</attrlabl><attalias Sync="TRUE">FUNCSTAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">INTPTLAT</attrlabl><attalias Sync="TRUE">INTPTLAT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">INTPTLNG</attrlabl><attalias Sync="TRUE">INTPTLNG</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PSADC</attrlabl><attalias Sync="TRUE">PSADC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET1001</attrlabl><attalias Sync="TRUE">ET1001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUD001</attrlabl><attalias Sync="TRUE">EUD001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUO001</attrlabl><attalias Sync="TRUE">EUO001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUW001</attrlabl><attalias Sync="TRUE">EUW001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUW002</attrlabl><attalias Sync="TRUE">EUW002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUW003</attrlabl><attalias Sync="TRUE">EUW003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUW004</attrlabl><attalias Sync="TRUE">EUW004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUX001</attrlabl><attalias Sync="TRUE">EUX001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUX002</attrlabl><attalias Sync="TRUE">EUX002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUY001</attrlabl><attalias Sync="TRUE">EUY001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUY002</attrlabl><attalias Sync="TRUE">EUY002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUY003</attrlabl><attalias Sync="TRUE">EUY003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUY004</attrlabl><attalias Sync="TRUE">EUY004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUY005</attrlabl><attalias Sync="TRUE">EUY005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU0001</attrlabl><attalias Sync="TRUE">EU0001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU1001</attrlabl><attalias Sync="TRUE">EU1001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU1002</attrlabl><attalias Sync="TRUE">EU1002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU1003</attrlabl><attalias Sync="TRUE">EU1003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU1004</attrlabl><attalias Sync="TRUE">EU1004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EU1005</attrlabl><attalias Sync="TRUE">EU1005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2001</attrlabl><attalias Sync="TRUE">ET2001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2002</attrlabl><attalias Sync="TRUE">ET2002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2003</attrlabl><attalias Sync="TRUE">ET2003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2004</attrlabl><attalias Sync="TRUE">ET2004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2005</attrlabl><attalias Sync="TRUE">ET2005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2006</attrlabl><attalias Sync="TRUE">ET2006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2007</attrlabl><attalias Sync="TRUE">ET2007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2008</attrlabl><attalias Sync="TRUE">ET2008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2009</attrlabl><attalias Sync="TRUE">ET2009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET2010</attrlabl><attalias Sync="TRUE">ET2010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3001</attrlabl><attalias Sync="TRUE">ET3001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3002</attrlabl><attalias Sync="TRUE">ET3002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3003</attrlabl><attalias Sync="TRUE">ET3003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3004</attrlabl><attalias Sync="TRUE">ET3004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3005</attrlabl><attalias Sync="TRUE">ET3005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3006</attrlabl><attalias Sync="TRUE">ET3006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3007</attrlabl><attalias Sync="TRUE">ET3007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3008</attrlabl><attalias Sync="TRUE">ET3008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3009</attrlabl><attalias Sync="TRUE">ET3009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3010</attrlabl><attalias Sync="TRUE">ET3010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3011</attrlabl><attalias Sync="TRUE">ET3011</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3012</attrlabl><attalias Sync="TRUE">ET3012</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3013</attrlabl><attalias Sync="TRUE">ET3013</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3014</attrlabl><attalias Sync="TRUE">ET3014</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3015</attrlabl><attalias Sync="TRUE">ET3015</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3016</attrlabl><attalias Sync="TRUE">ET3016</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3017</attrlabl><attalias Sync="TRUE">ET3017</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3018</attrlabl><attalias Sync="TRUE">ET3018</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3019</attrlabl><attalias Sync="TRUE">ET3019</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3020</attrlabl><attalias Sync="TRUE">ET3020</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3021</attrlabl><attalias Sync="TRUE">ET3021</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3022</attrlabl><attalias Sync="TRUE">ET3022</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3023</attrlabl><attalias Sync="TRUE">ET3023</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3024</attrlabl><attalias Sync="TRUE">ET3024</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3025</attrlabl><attalias Sync="TRUE">ET3025</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3026</attrlabl><attalias Sync="TRUE">ET3026</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3027</attrlabl><attalias Sync="TRUE">ET3027</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3028</attrlabl><attalias Sync="TRUE">ET3028</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3029</attrlabl><attalias Sync="TRUE">ET3029</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3030</attrlabl><attalias Sync="TRUE">ET3030</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET3031</attrlabl><attalias Sync="TRUE">ET3031</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5001</attrlabl><attalias Sync="TRUE">ET5001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5002</attrlabl><attalias Sync="TRUE">ET5002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5003</attrlabl><attalias Sync="TRUE">ET5003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5004</attrlabl><attalias Sync="TRUE">ET5004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5005</attrlabl><attalias Sync="TRUE">ET5005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5006</attrlabl><attalias Sync="TRUE">ET5006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5007</attrlabl><attalias Sync="TRUE">ET5007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5008</attrlabl><attalias Sync="TRUE">ET5008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5009</attrlabl><attalias Sync="TRUE">ET5009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5010</attrlabl><attalias Sync="TRUE">ET5010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5011</attrlabl><attalias Sync="TRUE">ET5011</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5012</attrlabl><attalias Sync="TRUE">ET5012</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5013</attrlabl><attalias Sync="TRUE">ET5013</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5014</attrlabl><attalias Sync="TRUE">ET5014</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5015</attrlabl><attalias Sync="TRUE">ET5015</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5016</attrlabl><attalias Sync="TRUE">ET5016</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5017</attrlabl><attalias Sync="TRUE">ET5017</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5018</attrlabl><attalias Sync="TRUE">ET5018</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5019</attrlabl><attalias Sync="TRUE">ET5019</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5020</attrlabl><attalias Sync="TRUE">ET5020</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5021</attrlabl><attalias Sync="TRUE">ET5021</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5022</attrlabl><attalias Sync="TRUE">ET5022</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5023</attrlabl><attalias Sync="TRUE">ET5023</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5024</attrlabl><attalias Sync="TRUE">ET5024</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5025</attrlabl><attalias Sync="TRUE">ET5025</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5026</attrlabl><attalias Sync="TRUE">ET5026</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5027</attrlabl><attalias Sync="TRUE">ET5027</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5028</attrlabl><attalias Sync="TRUE">ET5028</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5029</attrlabl><attalias Sync="TRUE">ET5029</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5030</attrlabl><attalias Sync="TRUE">ET5030</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5031</attrlabl><attalias Sync="TRUE">ET5031</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5032</attrlabl><attalias Sync="TRUE">ET5032</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5033</attrlabl><attalias Sync="TRUE">ET5033</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5034</attrlabl><attalias Sync="TRUE">ET5034</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5035</attrlabl><attalias Sync="TRUE">ET5035</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5036</attrlabl><attalias Sync="TRUE">ET5036</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5037</attrlabl><attalias Sync="TRUE">ET5037</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5038</attrlabl><attalias Sync="TRUE">ET5038</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5039</attrlabl><attalias Sync="TRUE">ET5039</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5040</attrlabl><attalias Sync="TRUE">ET5040</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5041</attrlabl><attalias Sync="TRUE">ET5041</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5042</attrlabl><attalias Sync="TRUE">ET5042</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5043</attrlabl><attalias Sync="TRUE">ET5043</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5044</attrlabl><attalias Sync="TRUE">ET5044</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5045</attrlabl><attalias Sync="TRUE">ET5045</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5046</attrlabl><attalias Sync="TRUE">ET5046</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5047</attrlabl><attalias Sync="TRUE">ET5047</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5048</attrlabl><attalias Sync="TRUE">ET5048</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5049</attrlabl><attalias Sync="TRUE">ET5049</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5050</attrlabl><attalias Sync="TRUE">ET5050</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5051</attrlabl><attalias Sync="TRUE">ET5051</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5052</attrlabl><attalias Sync="TRUE">ET5052</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5053</attrlabl><attalias Sync="TRUE">ET5053</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5054</attrlabl><attalias Sync="TRUE">ET5054</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5055</attrlabl><attalias Sync="TRUE">ET5055</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5056</attrlabl><attalias Sync="TRUE">ET5056</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5057</attrlabl><attalias Sync="TRUE">ET5057</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5058</attrlabl><attalias Sync="TRUE">ET5058</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5059</attrlabl><attalias Sync="TRUE">ET5059</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5060</attrlabl><attalias Sync="TRUE">ET5060</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5061</attrlabl><attalias Sync="TRUE">ET5061</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET5062</attrlabl><attalias Sync="TRUE">ET5062</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7001</attrlabl><attalias Sync="TRUE">ET7001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7002</attrlabl><attalias Sync="TRUE">ET7002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7003</attrlabl><attalias Sync="TRUE">ET7003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7004</attrlabl><attalias Sync="TRUE">ET7004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7005</attrlabl><attalias Sync="TRUE">ET7005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7006</attrlabl><attalias Sync="TRUE">ET7006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7007</attrlabl><attalias Sync="TRUE">ET7007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7008</attrlabl><attalias Sync="TRUE">ET7008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7009</attrlabl><attalias Sync="TRUE">ET7009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7010</attrlabl><attalias Sync="TRUE">ET7010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7011</attrlabl><attalias Sync="TRUE">ET7011</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7012</attrlabl><attalias Sync="TRUE">ET7012</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET7013</attrlabl><attalias Sync="TRUE">ET7013</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8001</attrlabl><attalias Sync="TRUE">ET8001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8002</attrlabl><attalias Sync="TRUE">ET8002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8003</attrlabl><attalias Sync="TRUE">ET8003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8004</attrlabl><attalias Sync="TRUE">ET8004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8005</attrlabl><attalias Sync="TRUE">ET8005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8006</attrlabl><attalias Sync="TRUE">ET8006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8007</attrlabl><attalias Sync="TRUE">ET8007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8008</attrlabl><attalias Sync="TRUE">ET8008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8009</attrlabl><attalias Sync="TRUE">ET8009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ET8010</attrlabl><attalias Sync="TRUE">ET8010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH001</attrlabl><attalias Sync="TRUE">EUH001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH002</attrlabl><attalias Sync="TRUE">EUH002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH003</attrlabl><attalias Sync="TRUE">EUH003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH004</attrlabl><attalias Sync="TRUE">EUH004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH005</attrlabl><attalias Sync="TRUE">EUH005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH006</attrlabl><attalias Sync="TRUE">EUH006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH007</attrlabl><attalias Sync="TRUE">EUH007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH008</attrlabl><attalias Sync="TRUE">EUH008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH009</attrlabl><attalias Sync="TRUE">EUH009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH010</attrlabl><attalias Sync="TRUE">EUH010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH011</attrlabl><attalias Sync="TRUE">EUH011</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUH012</attrlabl><attalias Sync="TRUE">EUH012</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUK001</attrlabl><attalias Sync="TRUE">EUK001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EUK002</attrlabl><attalias Sync="TRUE">EUK002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESA001</attrlabl><attalias Sync="TRUE">ESA001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESN001</attrlabl><attalias Sync="TRUE">ESN001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESN002</attrlabl><attalias Sync="TRUE">ESN002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES1001</attrlabl><attalias Sync="TRUE">ES1001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES1002</attrlabl><attalias Sync="TRUE">ES1002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETF001</attrlabl><attalias Sync="TRUE">ETF001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETF002</attrlabl><attalias Sync="TRUE">ETF002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETF003</attrlabl><attalias Sync="TRUE">ETF003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETF004</attrlabl><attalias Sync="TRUE">ETF004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ001</attrlabl><attalias Sync="TRUE">ETQ001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ002</attrlabl><attalias Sync="TRUE">ETQ002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ003</attrlabl><attalias Sync="TRUE">ETQ003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ004</attrlabl><attalias Sync="TRUE">ETQ004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ005</attrlabl><attalias Sync="TRUE">ETQ005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETQ006</attrlabl><attalias Sync="TRUE">ETQ006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETZ001</attrlabl><attalias Sync="TRUE">ETZ001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETZ002</attrlabl><attalias Sync="TRUE">ETZ002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETZ003</attrlabl><attalias Sync="TRUE">ETZ003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETZ004</attrlabl><attalias Sync="TRUE">ETZ004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETZ005</attrlabl><attalias Sync="TRUE">ETZ005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE001</attrlabl><attalias Sync="TRUE">ESE001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE002</attrlabl><attalias Sync="TRUE">ESE002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE003</attrlabl><attalias Sync="TRUE">ESE003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE004</attrlabl><attalias Sync="TRUE">ESE004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE005</attrlabl><attalias Sync="TRUE">ESE005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE006</attrlabl><attalias Sync="TRUE">ESE006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE007</attrlabl><attalias Sync="TRUE">ESE007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE008</attrlabl><attalias Sync="TRUE">ESE008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESE009</attrlabl><attalias Sync="TRUE">ESE009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESF001</attrlabl><attalias Sync="TRUE">ESF001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESP001</attrlabl><attalias Sync="TRUE">ESP001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESP002</attrlabl><attalias Sync="TRUE">ESP002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESP003</attrlabl><attalias Sync="TRUE">ESP003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESP004</attrlabl><attalias Sync="TRUE">ESP004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESP005</attrlabl><attalias Sync="TRUE">ESP005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EST001</attrlabl><attalias Sync="TRUE">EST001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESV001</attrlabl><attalias Sync="TRUE">ESV001</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESX001</attrlabl><attalias Sync="TRUE">ESX001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESX002</attrlabl><attalias Sync="TRUE">ESX002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESX003</attrlabl><attalias Sync="TRUE">ESX003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESX004</attrlabl><attalias Sync="TRUE">ESX004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ESX005</attrlabl><attalias Sync="TRUE">ESX005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES2001</attrlabl><attalias Sync="TRUE">ES2001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES2002</attrlabl><attalias Sync="TRUE">ES2002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES2003</attrlabl><attalias Sync="TRUE">ES2003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4001</attrlabl><attalias Sync="TRUE">ES4001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4002</attrlabl><attalias Sync="TRUE">ES4002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4003</attrlabl><attalias Sync="TRUE">ES4003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4004</attrlabl><attalias Sync="TRUE">ES4004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4005</attrlabl><attalias Sync="TRUE">ES4005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4006</attrlabl><attalias Sync="TRUE">ES4006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4007</attrlabl><attalias Sync="TRUE">ES4007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4008</attrlabl><attalias Sync="TRUE">ES4008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4009</attrlabl><attalias Sync="TRUE">ES4009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4010</attrlabl><attalias Sync="TRUE">ES4010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4011</attrlabl><attalias Sync="TRUE">ES4011</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4012</attrlabl><attalias Sync="TRUE">ES4012</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4013</attrlabl><attalias Sync="TRUE">ES4013</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4014</attrlabl><attalias Sync="TRUE">ES4014</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4015</attrlabl><attalias Sync="TRUE">ES4015</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4016</attrlabl><attalias Sync="TRUE">ES4016</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES4017</attrlabl><attalias Sync="TRUE">ES4017</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES6001</attrlabl><attalias Sync="TRUE">ES6001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ES8001</attrlabl><attalias Sync="TRUE">ES8001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH001</attrlabl><attalias Sync="TRUE">ETH001</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH002</attrlabl><attalias Sync="TRUE">ETH002</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH003</attrlabl><attalias Sync="TRUE">ETH003</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH004</attrlabl><attalias Sync="TRUE">ETH004</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH005</attrlabl><attalias Sync="TRUE">ETH005</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH006</attrlabl><attalias Sync="TRUE">ETH006</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH007</attrlabl><attalias Sync="TRUE">ETH007</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH008</attrlabl><attalias Sync="TRUE">ETH008</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH009</attrlabl><attalias Sync="TRUE">ETH009</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ETH010</attrlabl><attalias Sync="TRUE">ETH010</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>The most important attribute in this shapefile is GISJOIN because it provides the link between the shapefile and the aggregate data files. Any aggregate data file obtained through the NHGIS data acces system will contain a GISJOIN attribute.  Use this attribute to link the data with the shapefile for mapping purposes.  Please note that values in GISJOIN begin with "G" in order to retain leading zeros. This update took effect on May 7, 2008. 
+ 
+GISJOIN2 is an alternative linking attribute. GISJOIN2 is similar to GISJOIN except that its values do not begin with "G". GISJOIN2 may be used when linking to an aggregate data file extracted before May 7, 2008.
+
+Other attributes in the shapefile include area (in square meters), perimeter (in meters), FID (a ArcGIS-generated unique identifier for each record), NHGISST (the NHGIS state code, derived from FIPS codes), and NHGISCTY (the NHGIS county code, also derived from FIPS codes).</eaover>
+			<dsoverv>This shapefile contains census tracts for the Census of Population and Housing.</dsoverv>
+		</overview>
+	</eainfo>
+	<metainfo>
+		<metd Sync="TRUE">20080428</metd>
+		<metrd>2006/10/01</metrd>
+		<metfrd>As necessary</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Minnesota Population Center</cntorg>
+					<cntper>Petra Noble</cntper>
+				</cntorgp>
+				<cntaddr>
+					<address>50 Willey Hall</address>
+					<address>225 19th Avenue South</address>
+					<city>Minneapolis</city>
+					<state>Minnesota</state>
+					<postal>55455</postal>
+					<country>USA</country>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+				</cntaddr>
+				<cntvoice>612-625-7375</cntvoice>
+				<cntemail>nhgis@pop.umn.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<langmeta Sync="TRUE">en</langmeta>
+		<mettc Sync="TRUE">local time</mettc>
+	</metainfo>
+	<Esri>
+		<ModDate>20240412</ModDate>
+		<ModTime>18131600</ModTime>
+		<MetaID>{1FA348BE-9063-4A18-BDD6-B3C97578FEF1}</MetaID>
+		<CreaDate>20070111</CreaDate>
+		<CreaTime>07595600</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20240412</SyncDate>
+		<SyncTime>18131600</SyncTime>
+		<DataProperties>
+			<lineage>
+				<Process Date="20080409" Time="141229" Name="Select Data" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectData">SelectData "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC" POPGIS.t1990 "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080409" Time="153031" Name="Select Data" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SelectData">SelectData "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC" POPGIS.t1990 "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="105757" Name="Add GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA TEXT # # 15 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="110618" Name="Calculate GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA [GISJOIN] VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="112033" Name="Delete GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField">DeleteField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="113046" Name="Add GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA TEXT # # 15 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="114344" Name="Calculate GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA [GISJOIN] VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="115107" Name="DeleteField_17" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField">DeleteField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOIN "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="121519" Name="Add GISJOIN" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOIN TEXT # # 16 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="121951" Name="Calculate GISJOIN" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOIN ""G" &amp; [GISJOINA]" VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="124350" Name="Add GISJOIN2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField">AddField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOIN2 TEXT # # 15 # NULLABLE NON_REQUIRED # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="124839" Name="Calculate GISJOIN2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField">CalculateField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOIN2 [GISJOINA] VB # "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080418" Time="125724" Name="Delete GISJOINA" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField">DeleteField "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990" GISJOINA "Database Connections\sdenhgis.socsci.umn.edu (5153).sde\POPGIS.Contiguous_USA_TC\POPGIS.t1990"</Process>
+				<Process Date="20080428" Time="124202" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures">CopyFeatures tLayer G:\conflation\shapefiles\packing\gisjoin_gisjoin2_feature_class\tract\us_tract_1990\US_tract_1990.shp # 0 0 0</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20130506" Time="161946">Append G:\data_projects\istads\shape_processing\AK_tract_1990.shp;G:\data_projects\istads\shape_processing\HI_tract_1990.shp G:\data_projects\istads\shape_processing\US_tract_1990.shp NO_TEST "NHGISST "NHGISST" true false false 3 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,NHGISST,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,NHGISST,-1,-1;NHGISCTY "NHGISCTY" true false false 4 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,NHGISCTY,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,NHGISCTY,-1,-1;GISJOIN "GISJOIN" true false false 16 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,GISJOIN,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,GISJOIN,-1,-1;GISJOIN2 "GISJOIN2" true false false 15 Text 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,GISJOIN2,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,GISJOIN2,-1,-1;SHAPE_AREA "SHAPE_AREA" true false false 19 Double 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,SHAPE_AREA,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,SHAPE_AREA,-1,-1;SHAPE_LEN "SHAPE_LEN" true false false 19 Double 0 0 ,First,#,G:\data_projects\istads\shape_processing\AK_tract_1990.shp,SHAPE_LEN,-1,-1,G:\data_projects\istads\shape_processing\HI_tract_1990.shp,SHAPE_LEN,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Analysis Tools.tbx\Clip" Date="20240412" Time="180823">Clip US_tract_1990 HillsboroughCounty1990 C:\Users\gabrlhd\Documents\ArcGIS\Projects\NHGIS_HISTORIC_CENSUS\NHGIS_HISTORIC_CENSUS.gdb\Hills1990tracts #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportFeatures" Date="20240412" Time="181319">ExportFeatures Hills1990tracts C:\Users\gabrlhd\Documents\ArcGIS\Projects\Hills1990tracts.shp # NOT_USE_ALIAS "NHGISST "NHGISST" true true false 3 Text 0 0,First,#,Hills1990tracts,Hills1990tracts.NHGISST,0,3;NHGISCTY "NHGISCTY" true true false 4 Text 0 0,First,#,Hills1990tracts,Hills1990tracts.NHGISCTY,0,4;GISJOIN "GISJOIN" true true false 16 Text 0 0,First,#,Hills1990tracts,Hills1990tracts.GISJOIN,0,16;GISJOIN2 "GISJOIN2" true true false 15 Text 0 0,First,#,Hills1990tracts,Hills1990tracts.GISJOIN2,0,15;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,Hills1990tracts,Hills1990tracts.Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0,First,#,Hills1990tracts,Hills1990tracts.Shape_Area,-1,-1;GISJOIN "GISJOIN" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.GISJOIN,0,8000;YEAR "YEAR" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.YEAR,-1,-1;STUSAB "STUSAB" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.STUSAB,0,8000;ANRCA "ANRCA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ANRCA,0,8000;AIANHHA "AIANHHA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.AIANHHA,0,8000;RES_ONLYA "RES_ONLYA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.RES_ONLYA,0,8000;TRUSTA "TRUSTA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.TRUSTA,0,8000;AIANCC "AIANCC" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.AIANCC,0,8000;RES_TRSTA "RES_TRSTA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.RES_TRSTA,0,8000;BLOCKA "BLOCKA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.BLOCKA,0,8000;BLCK_GRPA "BLCK_GRPA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.BLCK_GRPA,0,8000;TRACTA "TRACTA" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.TRACTA,-1,-1;CD101A "CD101A" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.CD101A,0,8000;C_CITYA "C_CITYA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.C_CITYA,0,8000;CMSA "CMSA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.CMSA,0,8000;COUNTY "COUNTY" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.COUNTY,0,8000;COUNTYA "COUNTYA" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.COUNTYA,-1,-1;CTY_SUBA "CTY_SUBA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.CTY_SUBA,0,8000;COUSUBCC "COUSUBCC" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.COUSUBCC,0,8000;DIVISIONA "DIVISIONA" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.DIVISIONA,-1,-1;MSA_CMSAA "MSA_CMSAA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.MSA_CMSAA,0,8000;PLACEA "PLACEA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.PLACEA,0,8000;PLACECC "PLACECC" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.PLACECC,0,8000;PLACEDC "PLACEDC" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.PLACEDC,0,8000;PMSAA "PMSAA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.PMSAA,0,8000;REGIONA "REGIONA" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.REGIONA,-1,-1;STATE "STATE" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.STATE,0,8000;STATEA "STATEA" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.STATEA,-1,-1;URBRURALA "URBRURALA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.URBRURALA,0,8000;URB_AREAA "URB_AREAA" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.URB_AREAA,0,8000;CD103A "CD103A" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.CD103A,0,8000;AREALAND "AREALAND" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.AREALAND,-1,-1;AREAWAT "AREAWAT" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.AREAWAT,-1,-1;ANPSADPI "ANPSADPI" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ANPSADPI,0,8000;FUNCSTAT "FUNCSTAT" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.FUNCSTAT,0,8000;INTPTLAT "INTPTLAT" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.INTPTLAT,-1,-1;INTPTLNG "INTPTLNG" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.INTPTLNG,-1,-1;PSADC "PSADC" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.PSADC,0,8000;ET1001 "ET1001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET1001,-1,-1;EUD001 "EUD001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUD001,-1,-1;EUO001 "EUO001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUO001,-1,-1;EUW001 "EUW001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUW001,-1,-1;EUW002 "EUW002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUW002,-1,-1;EUW003 "EUW003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUW003,-1,-1;EUW004 "EUW004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUW004,-1,-1;EUX001 "EUX001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUX001,-1,-1;EUX002 "EUX002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUX002,-1,-1;EUY001 "EUY001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUY001,-1,-1;EUY002 "EUY002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUY002,-1,-1;EUY003 "EUY003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUY003,-1,-1;EUY004 "EUY004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUY004,-1,-1;EUY005 "EUY005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUY005,-1,-1;EU0001 "EU0001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU0001,-1,-1;EU1001 "EU1001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU1001,-1,-1;EU1002 "EU1002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU1002,-1,-1;EU1003 "EU1003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU1003,-1,-1;EU1004 "EU1004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU1004,-1,-1;EU1005 "EU1005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EU1005,-1,-1;ET2001 "ET2001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2001,-1,-1;ET2002 "ET2002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2002,-1,-1;ET2003 "ET2003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2003,-1,-1;ET2004 "ET2004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2004,-1,-1;ET2005 "ET2005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2005,-1,-1;ET2006 "ET2006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2006,-1,-1;ET2007 "ET2007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2007,-1,-1;ET2008 "ET2008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2008,-1,-1;ET2009 "ET2009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2009,-1,-1;ET2010 "ET2010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET2010,-1,-1;ET3001 "ET3001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3001,-1,-1;ET3002 "ET3002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3002,-1,-1;ET3003 "ET3003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3003,-1,-1;ET3004 "ET3004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3004,-1,-1;ET3005 "ET3005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3005,-1,-1;ET3006 "ET3006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3006,-1,-1;ET3007 "ET3007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3007,-1,-1;ET3008 "ET3008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3008,-1,-1;ET3009 "ET3009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3009,-1,-1;ET3010 "ET3010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3010,-1,-1;ET3011 "ET3011" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3011,-1,-1;ET3012 "ET3012" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3012,-1,-1;ET3013 "ET3013" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3013,-1,-1;ET3014 "ET3014" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3014,-1,-1;ET3015 "ET3015" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3015,-1,-1;ET3016 "ET3016" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3016,-1,-1;ET3017 "ET3017" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3017,-1,-1;ET3018 "ET3018" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3018,-1,-1;ET3019 "ET3019" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3019,-1,-1;ET3020 "ET3020" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3020,-1,-1;ET3021 "ET3021" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3021,-1,-1;ET3022 "ET3022" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3022,-1,-1;ET3023 "ET3023" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3023,-1,-1;ET3024 "ET3024" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3024,-1,-1;ET3025 "ET3025" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3025,-1,-1;ET3026 "ET3026" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3026,-1,-1;ET3027 "ET3027" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3027,-1,-1;ET3028 "ET3028" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3028,-1,-1;ET3029 "ET3029" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3029,-1,-1;ET3030 "ET3030" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3030,-1,-1;ET3031 "ET3031" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET3031,-1,-1;ET5001 "ET5001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5001,-1,-1;ET5002 "ET5002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5002,-1,-1;ET5003 "ET5003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5003,-1,-1;ET5004 "ET5004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5004,-1,-1;ET5005 "ET5005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5005,-1,-1;ET5006 "ET5006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5006,-1,-1;ET5007 "ET5007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5007,-1,-1;ET5008 "ET5008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5008,-1,-1;ET5009 "ET5009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5009,-1,-1;ET5010 "ET5010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5010,-1,-1;ET5011 "ET5011" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5011,-1,-1;ET5012 "ET5012" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5012,-1,-1;ET5013 "ET5013" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5013,-1,-1;ET5014 "ET5014" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5014,-1,-1;ET5015 "ET5015" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5015,-1,-1;ET5016 "ET5016" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5016,-1,-1;ET5017 "ET5017" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5017,-1,-1;ET5018 "ET5018" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5018,-1,-1;ET5019 "ET5019" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5019,-1,-1;ET5020 "ET5020" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5020,-1,-1;ET5021 "ET5021" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5021,-1,-1;ET5022 "ET5022" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5022,-1,-1;ET5023 "ET5023" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5023,-1,-1;ET5024 "ET5024" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5024,-1,-1;ET5025 "ET5025" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5025,-1,-1;ET5026 "ET5026" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5026,-1,-1;ET5027 "ET5027" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5027,-1,-1;ET5028 "ET5028" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5028,-1,-1;ET5029 "ET5029" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5029,-1,-1;ET5030 "ET5030" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5030,-1,-1;ET5031 "ET5031" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5031,-1,-1;ET5032 "ET5032" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5032,-1,-1;ET5033 "ET5033" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5033,-1,-1;ET5034 "ET5034" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5034,-1,-1;ET5035 "ET5035" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5035,-1,-1;ET5036 "ET5036" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5036,-1,-1;ET5037 "ET5037" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5037,-1,-1;ET5038 "ET5038" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5038,-1,-1;ET5039 "ET5039" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5039,-1,-1;ET5040 "ET5040" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5040,-1,-1;ET5041 "ET5041" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5041,-1,-1;ET5042 "ET5042" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5042,-1,-1;ET5043 "ET5043" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5043,-1,-1;ET5044 "ET5044" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5044,-1,-1;ET5045 "ET5045" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5045,-1,-1;ET5046 "ET5046" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5046,-1,-1;ET5047 "ET5047" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5047,-1,-1;ET5048 "ET5048" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5048,-1,-1;ET5049 "ET5049" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5049,-1,-1;ET5050 "ET5050" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5050,-1,-1;ET5051 "ET5051" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5051,-1,-1;ET5052 "ET5052" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5052,-1,-1;ET5053 "ET5053" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5053,-1,-1;ET5054 "ET5054" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5054,-1,-1;ET5055 "ET5055" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5055,-1,-1;ET5056 "ET5056" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5056,-1,-1;ET5057 "ET5057" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5057,-1,-1;ET5058 "ET5058" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5058,-1,-1;ET5059 "ET5059" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5059,-1,-1;ET5060 "ET5060" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5060,-1,-1;ET5061 "ET5061" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5061,-1,-1;ET5062 "ET5062" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET5062,-1,-1;ET7001 "ET7001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7001,-1,-1;ET7002 "ET7002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7002,-1,-1;ET7003 "ET7003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7003,-1,-1;ET7004 "ET7004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7004,-1,-1;ET7005 "ET7005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7005,-1,-1;ET7006 "ET7006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7006,-1,-1;ET7007 "ET7007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7007,-1,-1;ET7008 "ET7008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7008,-1,-1;ET7009 "ET7009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7009,-1,-1;ET7010 "ET7010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7010,-1,-1;ET7011 "ET7011" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7011,-1,-1;ET7012 "ET7012" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7012,-1,-1;ET7013 "ET7013" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET7013,0,8000;ET8001 "ET8001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8001,-1,-1;ET8002 "ET8002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8002,-1,-1;ET8003 "ET8003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8003,-1,-1;ET8004 "ET8004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8004,-1,-1;ET8005 "ET8005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8005,-1,-1;ET8006 "ET8006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8006,-1,-1;ET8007 "ET8007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8007,-1,-1;ET8008 "ET8008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8008,-1,-1;ET8009 "ET8009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8009,-1,-1;ET8010 "ET8010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ET8010,-1,-1;EUH001 "EUH001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH001,-1,-1;EUH002 "EUH002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH002,-1,-1;EUH003 "EUH003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH003,-1,-1;EUH004 "EUH004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH004,-1,-1;EUH005 "EUH005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH005,-1,-1;EUH006 "EUH006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH006,-1,-1;EUH007 "EUH007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH007,-1,-1;EUH008 "EUH008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH008,-1,-1;EUH009 "EUH009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH009,-1,-1;EUH010 "EUH010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH010,-1,-1;EUH011 "EUH011" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH011,-1,-1;EUH012 "EUH012" true true false 8000 Text 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUH012,0,8000;EUK001 "EUK001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUK001,-1,-1;EUK002 "EUK002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EUK002,-1,-1;ESA001 "ESA001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESA001,-1,-1;ESN001 "ESN001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESN001,-1,-1;ESN002 "ESN002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESN002,-1,-1;ES1001 "ES1001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES1001,-1,-1;ES1002 "ES1002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES1002,-1,-1;ETF001 "ETF001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETF001,-1,-1;ETF002 "ETF002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETF002,-1,-1;ETF003 "ETF003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETF003,-1,-1;ETF004 "ETF004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETF004,-1,-1;ETQ001 "ETQ001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ001,-1,-1;ETQ002 "ETQ002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ002,-1,-1;ETQ003 "ETQ003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ003,-1,-1;ETQ004 "ETQ004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ004,-1,-1;ETQ005 "ETQ005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ005,-1,-1;ETQ006 "ETQ006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETQ006,-1,-1;ETZ001 "ETZ001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETZ001,-1,-1;ETZ002 "ETZ002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETZ002,-1,-1;ETZ003 "ETZ003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETZ003,-1,-1;ETZ004 "ETZ004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETZ004,-1,-1;ETZ005 "ETZ005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETZ005,-1,-1;ESE001 "ESE001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE001,-1,-1;ESE002 "ESE002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE002,-1,-1;ESE003 "ESE003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE003,-1,-1;ESE004 "ESE004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE004,-1,-1;ESE005 "ESE005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE005,-1,-1;ESE006 "ESE006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE006,-1,-1;ESE007 "ESE007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE007,-1,-1;ESE008 "ESE008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE008,-1,-1;ESE009 "ESE009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESE009,-1,-1;ESF001 "ESF001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESF001,-1,-1;ESP001 "ESP001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESP001,-1,-1;ESP002 "ESP002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESP002,-1,-1;ESP003 "ESP003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESP003,-1,-1;ESP004 "ESP004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESP004,-1,-1;ESP005 "ESP005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESP005,-1,-1;EST001 "EST001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.EST001,-1,-1;ESV001 "ESV001" true true false 8 Double 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESV001,-1,-1;ESX001 "ESX001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESX001,-1,-1;ESX002 "ESX002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESX002,-1,-1;ESX003 "ESX003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESX003,-1,-1;ESX004 "ESX004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESX004,-1,-1;ESX005 "ESX005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ESX005,-1,-1;ES2001 "ES2001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES2001,-1,-1;ES2002 "ES2002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES2002,-1,-1;ES2003 "ES2003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES2003,-1,-1;ES4001 "ES4001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4001,-1,-1;ES4002 "ES4002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4002,-1,-1;ES4003 "ES4003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4003,-1,-1;ES4004 "ES4004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4004,-1,-1;ES4005 "ES4005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4005,-1,-1;ES4006 "ES4006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4006,-1,-1;ES4007 "ES4007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4007,-1,-1;ES4008 "ES4008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4008,-1,-1;ES4009 "ES4009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4009,-1,-1;ES4010 "ES4010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4010,-1,-1;ES4011 "ES4011" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4011,-1,-1;ES4012 "ES4012" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4012,-1,-1;ES4013 "ES4013" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4013,-1,-1;ES4014 "ES4014" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4014,-1,-1;ES4015 "ES4015" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4015,-1,-1;ES4016 "ES4016" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4016,-1,-1;ES4017 "ES4017" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES4017,-1,-1;ES6001 "ES6001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES6001,-1,-1;ES8001 "ES8001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ES8001,-1,-1;ETH001 "ETH001" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH001,-1,-1;ETH002 "ETH002" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH002,-1,-1;ETH003 "ETH003" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH003,-1,-1;ETH004 "ETH004" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH004,-1,-1;ETH005 "ETH005" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH005,-1,-1;ETH006 "ETH006" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH006,-1,-1;ETH007 "ETH007" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH007,-1,-1;ETH008 "ETH008" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH008,-1,-1;ETH009 "ETH009" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH009,-1,-1;ETH010 "ETH010" true true false 4 Long 0 0,First,#,Hills1990tracts,nhgis0002_ds120_1990_tract.csv.ETH010,-1,-1" #</Process></lineage>
+			<itemProps><itemLocation><linkage Sync="TRUE">file://\\LIB-VPWICB11-WD\C$\Users\gabrlhd\Documents\ArcGIS\Projects\Hills1990tracts.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">Hills1990tracts</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><copyHistory><copy source="G:\data_projects\istads\shape_processing\US_tract_1990" dest="\\thalia.socsci.umn.edu\popgis\labpcs\data_projects\istads\shape_processing\tract\US_tract_1990" date="20130514" time="10192300"></copy></copyHistory><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.1.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;USA_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-96.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,29.5],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,45.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,37.5],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;Esri&amp;quot;,102003]]&lt;/WKT&gt;&lt;XOrigin&gt;-16901100&lt;/XOrigin&gt;&lt;YOrigin&gt;-8579000&lt;/YOrigin&gt;&lt;XYScale&gt;266467840.99085236&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102003&lt;/WKID&gt;&lt;LatestWKID&gt;102003&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties>
+	</Esri>
+	<mdDateSt Sync="TRUE">20240412</mdDateSt>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 19045) ; Esri ArcGIS 13.1.2.41833</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="eng"/>
+			<countryCode value="USA" Sync="TRUE"></countryCode></dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">Hills1990tracts</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-2356113.745757</westBL>
+					<eastBL Sync="TRUE">2258224.799287</eastBL>
+					<northBL Sync="TRUE">1565781.660886</northBL>
+					<southBL Sync="TRUE">-1337508.076719</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-127.887285</westBL>
+			<eastBL Sync="TRUE">-65.345793</eastBL>
+			<northBL Sync="TRUE">51.604785</northBL>
+			<southBL Sync="TRUE">22.871934</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="eng"/>
+		<countryCode value="USA" Sync="TRUE"></countryCode></mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.000</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\thalia.socsci.umn.edu\popgis\labpcs\conflation\shapefiles\packing\gisjoin_gisjoin2_feature_class\tract\us_tract_1990\US_tract_1990.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE" code="102003">USA_Contiguous_Albers_Equal_Area_Conic</identCode>
+				<idCodeSpace Sync="TRUE">Esri</idCodeSpace><idVersion Sync="TRUE">4.0.0</idVersion></refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="Hills1990tracts"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+</metadata>
