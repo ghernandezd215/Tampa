@@ -1,0 +1,95 @@
+---
+title: "TAMPA_CENSUSDATA_2020"
+author: "Gabriel Hernandez"
+date: "2024-04-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+#Load neccesary libraries 
+
+install.packages('tidyverse')
+install.packages('tidycensus')
+install.packages('sf')
+install.packages('kableExtra')
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(kableExtra)
+
+options(scipen=999)
+options(tigris_class = "sf")
+
+source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
+
+
+#Load API KEY
+census_api_key("3aedcfd189958d66a813a29a4b33580e78657644", overwrite = TRUE)
+#Set CRS
+crs= '2882'
+
+
+
+```
+
+USE LOAD VARIABLES TO EXPLORE DATA OF INTEREST
+```{r}
+
+#Load Variables
+acs_variable_list.22 <- load_variables(2022, #year
+                                         "acs5", #five year ACS estimates
+                                         cache = TRUE)
+
+acs22_vars <-c("B06012PR_002E", #Tot Below 100 percent of the poverty level
+               "B25002_003E", #TotalVacant
+               "B21004_001E", #Median income in the past 12 months (in 2022 inflation-adjusted dollars
+               "B09021_023E", #65 years and over Lives alone
+               "B25136_001E", #Total Housing Units
+               "B25071_001E", #Median gross rent as a percentage of household income
+               "B05006_143E", #Total:!!Americas:!!Latin America:!!Caribbean:!!Cuba
+               "B19057_002E", #Total:!!With public assistance income
+               "B25035_001E", #Median year structure built
+               "B25077_001E", #med values
+               "B05010_002", #Ratio of Income to Poverty Level under 1.00
+               "B02001_003", #Race Black 
+               "B02001_008", #Race - 2 or more
+               "B03002_012" #Total Hispanic
+               
+                  )
+#Going to get the same data for 15 years later
+hillsborough_tracts22 <- get_acs(geography = "tract",
+                           year = 2022, 
+                             variables = acs22_vars, 
+                             geometry = TRUE, 
+                             state = "FL", 
+                             county = "Hillsborough", 
+                             output = "wide") 
+
+hillsborough_tracts22 <- hillsborough_tracts22%>%
+  rename(tot_below100pov22 = B06012PR_002E,
+         tot_vacant22 = B25002_003E,
+         med_inc22 = B21004_001E,
+         up65_alone22 = B09021_023E,
+         tot_housingunits22 =B25136_001E,
+         gross_v_inc_perc22 = B25071_001E,
+         tot_fb_cuba22 = B05006_143E,
+         tot_pa_inc22 = B19057_002E,
+         med_yb22 = B25035_001E,
+         med_values22 = B25077_001E,
+         count_under_pov= B05010_002E,
+         count_black=B02001_003E,
+         count_hispanic=B03002_012E,
+         count_mixedrace=B02001_008E
+         )%>%
+  mutate(vacpct22 = (tot_vacant22/tot_housingunits22), count_poc= (count_black + count_hispanic +    count_mixedrace)) %>%
+  st_as_sf(crs = crs)
+
+#export the data as a shapefile
+getwd()
+st_write(hillsborough_tracts22, "hillsborough_tracts22.shp")
+```
