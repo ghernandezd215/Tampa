@@ -1,0 +1,47 @@
+"0","library(sf)"
+"0","library(tidyverse)"
+"0","library(tidycensus)"
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"0","library(kableExtra)"
+"0","install.packages('tmap', dependencies = TRUE)"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/Gabriel/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/tmap_3.3-4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3734825 bytes (3.6 MB)
+"
+"2","downloaded 3.6 MB
+
+"
+"1","package ‘tmap’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\Gabriel\AppData\Local\Temp\RtmpSs7fEr\downloaded_packages"
+"1",""
+"1","
+"
+"0","library(scales)"
+"0",""
+"0","options(scipen=999)"
+"0","options(tigris_class = ""sf"")"
+"0",""
+"0","source(""https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r"")"
+"0",""
+"0","#Load API KEY"
+"0","census_api_key(""3aedcfd189958d66a813a29a4b33580e78657644"", overwrite = TRUE)"
+"2","To install your API key for use in future sessions, run this function with `install = TRUE`.
+"
+"0","#Set CRS"
+"0",""
+"0","crs='EPSG:3425'"
+"0",""

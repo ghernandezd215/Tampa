@@ -1,0 +1,124 @@
+---
+title: "TampaParks_SO_PREP"
+author: "Gabriel"
+date: "2024-04-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(sf)
+library(tidyverse)
+library(tidycensus)
+library(dplyr)
+library(ggplot2)
+library(kableExtra)
+install.packages('tmap', dependencies = TRUE)
+library(scales)
+
+options(scipen=999)
+options(tigris_class = "sf")
+
+source("https://raw.githubusercontent.com/urbanSpatial/Public-Policy-Analytics-Landing/master/functions.r")
+
+#Load API KEY
+census_api_key("3aedcfd189958d66a813a29a4b33580e78657644", overwrite = TRUE)
+#Set CRS
+
+crs='EPSG:3425'
+
+```
+
+* The purpose of this study is to gain insight into the relationship between the residents of Tampa, Florida and the City of Tampa's parks service. I am approaching this project from the perspective of a non-profit organization interested in the putting on events that supply food and home goods to families at a scale that would be deeply impact their yearly cost-of-living expenses. We also want to advocate for more funds to be programmed at the top 3 parks that serve our targe demographic. Thanks to detailed from the American Survey Data 5-Year Estimates for 2022, it is possible to compile the counts of varying household and householder characteristics at a census block group level. We will test for different target audiences and compare visualizations of the outputs.
+  The project is based on data that is publicly available. I will be using a parks polygon shapefile from the City of Tampa Geohub website: https://city-tampa.opendata.arcgis.com/ . I will turn them into points that are geopositioned at the weighted center of the polygon (centroids). The relationship between parks and people is partly defined by access. In this project, I define accessibility as being able to walk 15 minutes to the park. Tampa is not a public transportation oriented city, and due to the heat and humidity a walk longer tha
+  The investigation of this project is mathematically possible through the application of the location-allocation problem from the field of spatial optimization. In simple terms, we start with series of 'demand' and 'facility' nodes. We will then decide on a distance that will be used to create a coverage matrix. A coverage matrix uses the binary values of 1 and 0 to symbolize whether a facility with a radius of a given distance covers a demand node. The coverage matrix is used to generate the formula that solves our optimization problem, which will also take into account how I value the demand node and my budget that determines the desired count of facilities. The value of our demand nodes will be based on the sum of specific census variables. The desired count of parks that our group is interested in investing in improving is five. 
+  Below, we begin loading the data, exploring it, defining variables, and preparing the final centroid shapefiles to bring into ArcPro for the final analysis. We are looking to sum the count of single parents as a demand value, as well as the count of families with incomes below 30K. The Federal HUD and State Income Limit in 2024 for a 4-person household at 30 percent of the AMI is $31,200. Lastly, we will look at educational attainment of the population aged 25 and above. 
+
+```{r}
+
+#Load Variables
+acs_variable_list.22 <- load_variables(2022, #year
+                                         "acs5", #five year ACS estimates
+                                         cache = TRUE)
+
+
+acs22_vars <-c("B06012PR_002E", #Tot Below 100 percent of the poverty level
+               "B25002_003E", #TotalVacant
+               "B21004_001E", #Median income in the past 12 months (in 2022 inflation-adjusted dollars
+               "B09021_023E", #65 years and over Lives alone
+               "B25136_001E", #Total Housing Units
+               "B25071_001E", #Median gross rent as a percentage of household income
+               "B05006_143E", #Total:!!Americas:!!Latin America:!!Caribbean:!!Cuba
+               "B19057_002E", #Total:!!With public assistance income
+               "B25035_001E", #Median year structure built
+               "B25077_001E", #med values
+               "B05010_002E", #Ratio of Income to Poverty Level under 1.00
+               "B02001_003E", #Race Black 
+               "B02001_008E", #Race - 2 or more
+               "B03002_012E", #Total Hispanic
+               "B17010_011E",  #bg Male householder, no spouse present:!!With related children of the householder under 18 years
+               "B17010_017E",  #bg Female householder, no spouse present:!!With related children of the householder under 18 years:
+               "B17017_003E", # bg Estimate!!Total:!!Income in the past 12 months below poverty level:!!Family household
+               "B19101_002E", #bg family income Estimate!!Total:!!Less than $10,000
+               "B19101_003E", #bg family income $10,000 to $14,999
+               "B19101_004E", #bg family income Estimate!!Total:!!$15,000 to $19,999
+               "B19101_005E", #bg  family income !$20,000 to $24,999
+               "B19101_006E", #bg family income Total:!!$25,000 to $29,999
+               "B15003_023E", #bg educational attainment (EA) 25+ MAsters
+               "B15003_024E", #bg EA 25+ professinal degrees
+               "B15003_025E" #bg EA25+ doctorates
+)
+
+
+hillsborough_bg22 <- get_acs(geography = "block group",
+                         year = 2022, 
+                         variables = acs22_vars, 
+                         geometry = TRUE, 
+                         state = "FL", 
+                         county = "Hillsborough", 
+                         output = "wide")                
+            
+hillsborough_bg22 <- hillsborough_bg22%>%
+  rename(tot_below100pov22 = B06012PR_002E,
+         tot_vacant22 = B25002_003E,
+         med_inc22 = B21004_001E,
+         up65_alone22 = B09021_023E,
+         tot_housingunits22 =B25136_001E,
+         gross_v_inc_perc22 = B25071_001E,
+         tot_fb_cuba22 = B05006_143E,
+         tot_pa_inc22 = B19057_002E,
+         med_yb22 = B25035_001E,
+         med_values22 = B25077_001E,
+         count_under_pov= B05010_002E,
+         count_black=B02001_003E,
+         count_hispanic=B03002_012E,
+         count_mixedrace=B02001_008E
+         )%>%
+  mutate(vacpct22 = (tot_vacant22/tot_housingunits22), count_poc= (count_black + count_hispanic + count_mixedrace),sum_singleparents=    (B17010_011E+B17010_017E), sum_EA_MsDr=(B15003_023E +B15003_024E+ B15003_025E), sum_fam_below_30k= (B19101_002E+B19101_003E+B19101_004E+B19101_005E+B19101_006E)) %>%
+  select(~())
+  st_as_sf(crs = crs)
+
+#convert the block groups to centroids before exporting as shapefiles
+
+st_centroid(hillsborough_bg22)
+
+#exportshapefile of the census block groups
+## esri field names must be less than 10 characters
+if(file.exists("data/hillsborough22_bg/hillsborough_bg22.shp")) {
+  file.remove(list.files("data/hillsborough22_bg", full.names = TRUE))
+}
+st_write(hillsborough_bg22, "data/hillsborough22_bg/hillsborough_bg22.shp", delete_layer = TRUE)
+```
+
+
+
+
+*Conclusion
+
+In taking a survey of what parks in Tampa serve what groups of people, the city could potentially consider more careful planning initiatives on their public land. Architects and other types of designers that want to impact the lives of marginalized people through beautification and participatory place-making techniques could also find our work meaningful. 
+  
+  
+  
