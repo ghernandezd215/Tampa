@@ -44,6 +44,7 @@ USE LOAD VARIABLES TO EXPLORE DATA OF INTEREST
 acs_variable_list.22 <- load_variables(2022, #year
                                          "acs5", #five year ACS estimates
                                          cache = TRUE)
+#Incomes are adjusted to 2022 dollars
 
 acs22_vars <-c("B06012PR_002E", #Tot Below 100 percent of the poverty level
                "B25002_003E", #TotalVacant

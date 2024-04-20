@@ -3,9 +3,9 @@
     "path": "E:/Github/Tampa/Spatial Optimization Final/ACS22_Hillsborough_Tracts.Rmd",
     "project_path": "ACS22_Hillsborough_Tracts.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2468636788",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1713579700706.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -16,11 +16,11 @@
         "scrollLine": "72"
     },
     "folds": "",
-    "lastKnownWriteTime": 1713578876,
+    "lastKnownWriteTime": 1713646533,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713640802862,
+    "last_content_update": 1713646533284,
     "read_only": false,
     "read_only_alternatives": []
 }
