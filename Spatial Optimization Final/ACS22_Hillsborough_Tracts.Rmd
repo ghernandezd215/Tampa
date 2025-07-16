@@ -38,6 +38,16 @@ crs= '2882'
 ```
 
 USE LOAD VARIABLES TO EXPLORE DATA OF INTEREST
+
+
+```{r}
+acs_variable_list.13 <- load_variables(2013, #year
+                                         "acs5", #five year ACS estimates
+                                         cache = TRUE)
+
+```
+
+
 ```{r}
 
 #Load Variables
